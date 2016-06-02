@@ -46,8 +46,10 @@
 {
     
     UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-    LHYHero *
-    cell.textLabel.text = _heroes
+    LHYHero *hero = self.heroes[indexPath.row];
+    cell.textLabel.text = hero.name;
+    cell.imageView.image = [UIImage imageNamed:hero.icon];
+    cell.detailTextLabel.text = hero.intro;
     return cell;
 }
 
