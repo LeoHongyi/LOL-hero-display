@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F60D41331D006F38000D50DC"
+               BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.app"
+               BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;"
+               ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F60D414C1D006F38000D50DC"
+               BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;Tests.xctest"
+               BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;Tests"
+               ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F60D41571D006F38000D50DC"
+               BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;UITests.xctest"
+               BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;UITests"
+               ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F60D41331D006F38000D50DC"
+            BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.app"
+            BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;"
+            ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F60D41331D006F38000D50DC"
+            BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.app"
+            BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;"
+            ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F60D41331D006F38000D50DC"
+            BuildableName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.app"
+            BlueprintName = "LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;"
+            ReferencedContainer = "container:LOL&#x82f1;&#x96c4;&#x6218;&#x58eb;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -7,21 +7,50 @@
 //
 
 #import "ViewController.h"
+#import "LHYHero.h"
 
-@interface ViewController ()
-
+@interface ViewController ()<UITableViewDataSource>
+@property(nonatomic,strong)NSArray *heroes;
 @end
 
 @implementation ViewController
+-(NSArray *)heroes
+{
+    if (_heroes == nil) {
+        NSString *path = [[NSBundle mainBundle]pathForResource:@"heroes.plist" ofType:nil];
+        NSArray *dictArray = [NSArray arrayWithContentsOfFile:path];
+        NSMutableArray *heroArray = [NSMutableArray array];
+        for (NSDictionary *dict in dictArray) {
+            LHYHero *hero = [LHYHero heroWithDict:dict];
+            [heroArray addObject:hero];
+            
+        }
+        _heroes = heroArray;
+        
+    }
+    return _heroes;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.heroes.count;
 }
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+{
+    
+    UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    LHYHero *
+    cell.textLabel.text = _heroes
+    return cell;
+}
+
+
 
 @end

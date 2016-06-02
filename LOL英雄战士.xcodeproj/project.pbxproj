@@ -15,6 +15,8 @@
 		F60D41471D006F38000D50DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60D41451D006F38000D50DC /* LaunchScreen.storyboard */; };
 		F60D41521D006F38000D50DC /* LOL____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60D41511D006F38000D50DC /* LOL____Tests.m */; };
 		F60D415D1D006F38000D50DC /* LOL____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60D415C1D006F38000D50DC /* LOL____UITests.m */; };
+		F60D416C1D007647000D50DC /* LHYHero.m in Sources */ = {isa = PBXBuildFile; fileRef = F60D416B1D007647000D50DC /* LHYHero.m */; };
+		F60D416E1D007738000D50DC /* heroes.plist in Resources */ = {isa = PBXBuildFile; fileRef = F60D416D1D007738000D50DC /* heroes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		F60D41581D006F38000D50DC /* LOL英雄战士UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LOL英雄战士UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D415C1D006F38000D50DC /* LOL____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LOL____UITests.m"; sourceTree = "<group>"; };
 		F60D415E1D006F38000D50DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60D416A1D007647000D50DC /* LHYHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHYHero.h; sourceTree = "<group>"; };
+		F60D416B1D007647000D50DC /* LHYHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHYHero.m; sourceTree = "<group>"; };
+		F60D416D1D007738000D50DC /* heroes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heroes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		F60D41361D006F38000D50DC /* LOL英雄战士 */ = {
 			isa = PBXGroup;
 			children = (
+				F60D416D1D007738000D50DC /* heroes.plist */,
+				F60D416A1D007647000D50DC /* LHYHero.h */,
+				F60D416B1D007647000D50DC /* LHYHero.m */,
 				F60D413A1D006F38000D50DC /* AppDelegate.h */,
 				F60D413B1D006F38000D50DC /* AppDelegate.m */,
 				F60D413D1D006F38000D50DC /* ViewController.h */,
@@ -202,6 +210,7 @@
 		F60D412C1D006F38000D50DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LHY;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "hongyi liu";
 				TargetAttributes = {
@@ -243,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60D416E1D007738000D50DC /* heroes.plist in Resources */,
 				F60D41471D006F38000D50DC /* LaunchScreen.storyboard in Resources */,
 				F60D41441D006F38000D50DC /* Assets.xcassets in Resources */,
 				F60D41421D006F38000D50DC /* Main.storyboard in Resources */,
@@ -273,6 +283,7 @@
 				F60D413F1D006F38000D50DC /* ViewController.m in Sources */,
 				F60D413C1D006F38000D50DC /* AppDelegate.m in Sources */,
 				F60D41391D006F38000D50DC /* main.m in Sources */,
+				F60D416C1D007647000D50DC /* LHYHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
